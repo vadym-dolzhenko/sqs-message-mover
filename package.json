@@ -1,0 +1,32 @@
+{
+  "name": "sqs-message-mover",
+  "version": "0.0.1",
+  "description": "SQS message mover",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadym-dolzhenko/sqs-message-mover.git"
+  },
+  "keywords": [
+    "sqs",
+    "message",
+    "move"
+  ],
+  "author": "Vadym Dolzhenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vadym-dolzhenko/sqs-message-mover/issues"
+  },
+  "homepage": "https://github.com/vadym-dolzhenko/sqs-message-mover#readme",
+  "dependencies": {
+    "ora": "^3.4.0",
+    "sqs": "^2.0.2",
+    "yargs": "^14.0.0"
+  },
+  "bin": {
+    "sqs-message-mover": "./index.js"
+  }
+}
